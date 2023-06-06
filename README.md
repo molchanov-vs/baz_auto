@@ -15,6 +15,7 @@ docker build -t baz_auto .
 ## Usage
 
 bash ./script.sh
+0 9,17 * * * /bin/bash /../baz_auto/script.sh
 
 ## Folder Structure
 
